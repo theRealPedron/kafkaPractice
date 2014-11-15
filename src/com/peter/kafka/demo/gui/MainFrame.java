@@ -104,7 +104,7 @@ public class MainFrame extends JFrame implements ActionListener{
 	private void setupThisFrame(){
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		layout = new SpringLayout();
-		setTitle("making kafka awesome!");
+		setTitle("15-making kafka awesome!");
 		setResizable(false);
 		mainPanel = setupMainPanel();
 		setContentPane(mainPanel);
